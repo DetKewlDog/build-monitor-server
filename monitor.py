@@ -4,6 +4,8 @@ from threading import Thread
 
 os.chdir(os.path.dirname(__file__))
 
+
+# change this to whatever unity player log you want to monitor
 PATH = os.getenv('LOCALAPPDATA') + 'Low\\Forgescape\\Forgescape\\Player.log'
 
 buffer = []
