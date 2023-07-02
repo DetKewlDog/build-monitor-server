@@ -5,7 +5,7 @@ import monitor as Monitor
 app = Flask(__name__)
 CORS(app)
 
-# This code acts as a sort of API server
+# This code acts as a backend
 # This will allow to communicate with it using javascript
 
 # Yes, I could've just used this Flask app as the monitor
